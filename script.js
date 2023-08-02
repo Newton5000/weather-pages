@@ -29,7 +29,7 @@ function getWeather() {
             <p>Humidity: ${humidity}%</p>
           `;
       } else {
-        weatherInfo.innerText = "City not found. Please try again.";
+        weatherInfo.innerText = "City not found.Please try again.";
       }
     })
     .catch((error) => {
